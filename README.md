@@ -175,6 +175,35 @@ setInterval(() => {
 }, 1000);
 
 </script>
+<section>
+    <h2>🎯 Feel Better, One Step at a Time</h2>
+
+    <div class="card-container">
+
+        <!-- ACTIVITY GENERATOR -->
+        <div class="card">
+            <h3>🎲 Try This Now</h3>
+            <p id="funActivity">Click to get a healthy activity</p>
+            <button onclick="newFunActivity()">Give Me One</button>
+        </div>
+
+        <!-- BREATHING TOOL -->
+        <div class="card">
+            <h3>🧘 Breathing Exercise</h3>
+            <p id="breath">Click to start</p>
+            <button onclick="startBreathing()">Start</button>
+        </div>
+
+        <!-- AI COACH -->
+        <div class="card">
+            <h3>🤖 AI Support Coach</h3>
+            <input id="userInput" placeholder="How are you feeling?" />
+            <button onclick="talkToCoach()">Talk</button>
+            <p id="aiResponse"></p>
+        </div>
+
+    </div>
+</section>
 
 </body>
 </html>
