@@ -204,7 +204,13 @@ setInterval(() => {
 
     </div>
 </section>
-
+<!-- AI COACH -->
+<div class="card">
+    <h3>🤖 AI Support Coach</h3>
+    <input id="userInput" placeholder="Talk to me..." style="width: 80%; padding: 8px;" />
+    <button onclick="talkToCoach()">Send</button>
+    <p id="aiResponse"></p>
+</div>
 </body>
 </html>
 
