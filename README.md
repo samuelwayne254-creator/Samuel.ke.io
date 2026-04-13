@@ -147,6 +147,34 @@ dateInput.addEventListener("change", () => {
     }, 1000);
 });
 </script>
+<section id="interactive">
+    <h2>🎮 Let’s Do Something Together</h2>
 
+    <div class="card-container">
+
+        <!-- RANDOM QUESTION -->
+        <div class="card">
+            <h3>❓ Question Game</h3>
+            <p id="question">Click below to get a question</p>
+            <button onclick="newQuestion()">New Question</button>
+        </div>
+
+        <!-- SPIN THE DATE -->
+        <div class="card">
+            <h3>🎡 Pick Our Activity</h3>
+            <p id="activity">Click to decide what we do</p>
+            <button onclick="spinActivity()">Spin</button>
+        </div>
+
+        <!-- LOVE NOTES -->
+        <div class="card">
+            <h3>💌 Love Notes</h3>
+            <input id="noteInput" placeholder="Write something sweet..." />
+            <button onclick="saveNote()">Send</button>
+            <p id="savedNote"></p>
+        </div>
+
+    </div>
+</section>
 </body>
 </html>
